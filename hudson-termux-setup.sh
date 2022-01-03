@@ -2,7 +2,7 @@ apt update --yes
 pkg update --yes
 apt upgrade --yes
 pkg upgrade --yes
-pkg install wget golang python2 git build-essential yarn python3 vim nodejs tmux clang git curl x11-repo tigervnc lxqt otter-browser qterminal --yes
+pkg install wget golang openssh python2 git build-essential yarn python3 vim nodejs tmux clang git curl x11-repo tigervnc lxqt otter-browser qterminal --yes
 pkg install tigervnc xrdp ripgrep lxqt* --yes
 pkg install yarn --yes
 pkg install gh --yes
