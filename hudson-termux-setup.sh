@@ -15,3 +15,4 @@ pkg install ripgrep
 cd /data/data/com.termux/files/home/.config/yarn/global/node_modules/code-server
 ln -s $PREFIX/bin/rg ./lib/vscode/node_modules/vscode-ripgrep/bin/rg
 cd ~
+git config --global credential.helper cache
